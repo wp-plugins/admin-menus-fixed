@@ -4,7 +4,7 @@ Tags: spherical, fixed, position fixed, ozh, menu, menus, dashboard, admin, drop
 Requires at least: 3.1
 Tested up to: 3.1
 Stable tag: trunk
-Contributors: spherical, Ozh
+Contributors: spherical, ozh
 
 Ozh' Admin Drop Down Menu + all WordPress Admin Menus available in a stacked, compressed configuration fixed to the top of the Admin screens.
 
