@@ -44,6 +44,10 @@ No configuration is necessary. It works all by itself.
 
 If you'd like to help a real starving artist, please [buy me a burger, a taco or some cat food for our rescues.](http://sphericalmagic.com/plugins/donate.shtml)
 
+= Will you write a plugin for WordPress versions earlier than 3.1? =
+
+If there is enough call for it, yes. 3.0.5 and earlier are easier to handle. [Contact me](http://imperialearth.com/bejhail.shtml) and I'll bang one together. Problem is, all of my installs are now 3.1+, so you'd have to test it for me or I'd have to create a database and install 3.0.5 just for that.
+
 == Screenshots ==
 
 1. Admin pages - Left Side
@@ -53,4 +57,5 @@ If you'd like to help a real starving artist, please [buy me a burger, a taco or
 
 == Upgrade Notice ==
 
-Overwrite the current admin-menus-fixed/ directory and all contained files.
+* Overwrite the current admin-menus-fixed/ directory and all contents.
+* Test that the Admin Bar toggle works and the drop-downs extend and you're good to go.
