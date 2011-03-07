@@ -11,15 +11,16 @@ Ozh' Admin Drop Down Menu + all WordPress Admin Menus available in a stacked, co
 == Description ==
 
 **For WordPress 3.1+ only.**
-
-**Requires Plugin: [Ozh' Admin Drop Down Menu](http://wordpress.org/extend/plugins/ozh-admin-drop-down-menu/)**
+**Requires Plugin: [Ozh' Admin Drop Down Menu 3.5.0+](http://wordpress.org/extend/plugins/ozh-admin-drop-down-menu/)**
 
 **What you need, where you need it - and when.**
 
-* Consolidates Ozh's menu, the WordPress 3.1+ Admin Bar and Admin Menu and makes them all fixed position, so that you always have their availability at the top of your window.
+* Consolidates Ozh's menu, the WordPress 3.1+ Admin Bar and Admin Menu and makes them all fixed position, so that you always have them readily available at the top of your window.
 * All three fit in darn near the same space as the standard 3.1+ menus do alone. Enjoy more screen real estate and less scrolling!
 * Automatically adjusts to display/not display setting of the Admin Bar in the backend.
-* Toggle: **Your Profile** > **Show Admin Bar** > **in dashboard** checkbox. Menus reformat to accommodate the new setting.
+* Toggle: **Your Profile** > **Show Admin Bar** > **in dashboard** checkbox. Menus reformat to accommodate the chosen setting.
+
+For the backstory, a comprehensive overview nnd support, see the [Fixed Admin Menus - The Plugin](http://blog.imperialearth.com/wordpress/fixed-admin-menus-the-plugin/) pages.
 
 == Changelog ==
 
