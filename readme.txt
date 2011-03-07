@@ -1,6 +1,6 @@
 === Admin Menus Fixed ===
 Donate link: http://sphericalmagic.com/plugins/donate.shtml
-Tags: spherical, fixed, position fixed, ozh, menu, menus, dashboard, admin, dropdown, drop down, productivity, css
+Tags: admin, administration, bar, css, dashboard, dropdown, drop down, fixed, menu, menus, multisite, navigation, network, ozh, position, productivity, screen, super, spherical
 Requires at least: 3.1
 Tested up to: 3.1
 Stable tag: trunk
