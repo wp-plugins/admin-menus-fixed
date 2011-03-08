@@ -24,15 +24,22 @@ For the backstory, a comprehensive overview nnd support, see the [Fixed Admin Me
 
 == Changelog ==
 
-0.3 First public release following an encouraging suggestion made by Ozh, after he saw my hack, to develop a companion plugin. Thanks, Ozh!
+= 0.3 =
+
+First public release following an encouraging suggestion made by Ozh, after he saw my hack, to develop a companion plugin. Thanks, Ozh!
 
 == Installation ==
 
-Installation as usual:
+= Installation as usual: =
 
 1. Upload plugin directory to your `wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. May be Network Activated by Multisite Network Admin (advisable if Ozh's plugin is Network Activated but it is not necesssary that the activation methods match).
+
+= Upgrading =
+
+* Overwrite the current admin-menus-fixed/ directory and all contents.
+* Test that the **Show Admin Bar** toggle works and the drop-downs extend and you're good to go.
 
 == Frequently Asked Questions ==
 
@@ -57,5 +64,4 @@ If there is enough call for it, yes. 3.0.5 and earlier are easier to handle. [Co
 
 == Upgrade Notice ==
 
-* Overwrite the current admin-menus-fixed/ directory and all contents.
-* Test that the Admin Bar toggle works and the drop-downs extend and you're good to go.
+A new version of Admin Menus Fixed is available. Please [upgrade now](http://wordpress.org/extend/plugins/admin-menus-fixed/).
