@@ -3,7 +3,7 @@ Donate link: http://sphericalmagic.com/plugins/donate.shtml
 Tags: admin, administration, bar, css, dashboard, dropdown, drop down, fixed, menu, menus, multisite, navigation, network, ozh, position, productivity, screen, super, spherical
 Requires at least: 3.1
 Tested up to: 3.1
-Stable tag: trunk
+Stable tag: 0.6
 Contributors: spherical, ozh
 
 Ozh' Admin Drop Down Menu + all WordPress Admin Menus available in a stacked, compressed configuration fixed to the top of the Admin screens.
@@ -11,22 +11,27 @@ Ozh' Admin Drop Down Menu + all WordPress Admin Menus available in a stacked, co
 == Description ==
 
 **For WordPress 3.1+ only.**
-**Requires Plugin: [Ozh' Admin Drop Down Menu 3.5.0+](http://wordpress.org/extend/plugins/ozh-admin-drop-down-menu/)**
+**Companion to Plugin: [Ozh' Admin Drop Down Menu 3.5.0+](http://wordpress.org/extend/plugins/ozh-admin-drop-down-menu/)**
 
 **What you need, where you need it - and when.**
 
 * Consolidates Ozh's menu, the WordPress 3.1+ Admin Bar and Admin Menu and makes them all fixed position, so that you always have them readily available at the top of your window.
 * All three fit in darn near the same space as the standard 3.1+ menus do alone. Enjoy more screen real estate and less scrolling!
-* Automatically adjusts to display/not display setting of the Admin Bar in the backend.
+* If Ozh' Admin Drop Down Menu is deactivated, the compressed WordPress Admin Menu moves up and remains fixed position.
+* Automatically adjusts to the display/not display setting of the Admin Bar in the backend.
 * Toggle: **Your Profile** > **Show Admin Bar** > **in dashboard** checkbox. Menus reformat to accommodate the chosen setting.
 
-For the backstory, a comprehensive overview nnd support, see the [Fixed Admin Menus - The Plugin](http://blog.imperialearth.com/wordpress/fixed-admin-menus-the-plugin/) pages.
+For the backstory, a comprehensive overview and support, see the [Fixed Admin Menus - The Plugin](http://blog.imperialearth.com/wordpress/fixed-admin-menus-the-plugin/) pages.
 
 == Changelog ==
 
+= 0.6 =
+
+* Now accommodates the Ozh' Admin Drop Down Menu being deactivated without deactivating Fixed Admin Menus first; retaining the compressed and fixed position aspects of the WordPress Admin Menu, so it can be used with the standard WordPress menus as well.
+
 = 0.3 =
 
-First public release following an encouraging suggestion made by Ozh, after he saw my hack, to develop a companion plugin. Thanks, Ozh!
+* First public release following an encouraging suggestion made by Ozh, after he saw my hack, to develop a companion plugin. Thanks, Ozh!
 
 == Installation ==
 
@@ -39,7 +44,7 @@ First public release following an encouraging suggestion made by Ozh, after he s
 = Upgrading =
 
 * Overwrite the current admin-menus-fixed/ directory and all contents.
-* Test that the **Show Admin Bar** toggle works and the drop-downs extend and you're good to go.
+* Test that the **Show Admin Bar** toggle in **Your Profile** works and the drop-downs extend and you're good to go.
 
 == Frequently Asked Questions ==
 
@@ -57,11 +62,15 @@ If there is enough call for it, yes. 3.0.5 and earlier are easier to handle. [Co
 
 == Screenshots ==
 
-1. Admin pages - Left Side
-2. Admin pages - Right Side
-3. Admin pages - Left Side, No Admin Bar
-4. Admin pages - Right Side, No Admin Bar
+1. **Admin Pages - Left Side | WordPress Admin Bar + Ozh' Admin Drop Down + WordPress Admin Menu - All Fixed**
+2. **Admin Pages - Right Side | WordPress Admin Bar + Ozh' Admin Drop Down + WordPress Admin Menu - All Fixed**
+3. **Admin Pages - Left Side | Ozh' Admin Drop Down + WordPress Admin Menu - Both Fixed**
+4. **Admin Pages - Right Side | Ozh' Admin Drop Down + WordPress Admin Menu - Both Fixed**
+5. **Admin Pages - Left Side | WordPress Admin Bar + WordPress Admin Menu - Both Fixed + Main Navigation on Left - Scrolls**
+6. **Admin Pages - Right Side | WordPress Admin Bar + WordPress Admin Menu - Both Fixed**
+7. **Admin pages - Left Side | WordPress Admin Menu Only - Fixed + Main Navigation on Left - Scrolls**
+8. **Admin pages - Right Side | WordPress Admin Menu Only - Fixed**
 
 == Upgrade Notice ==
 
-A new version of Admin Menus Fixed is available. Please [upgrade now](http://wordpress.org/extend/plugins/admin-menus-fixed/).
+A new version of Admin Menus Fixed is available. This clears a possible problem if Ozh' Admin Drop Down Menu is deactivated first. Also adds functionality for fixing WordPress Admin menus, whether or not Ozh's menu is activated. Please [upgrade now](http://wordpress.org/extend/plugins/admin-menus-fixed/).
