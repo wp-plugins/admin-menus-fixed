@@ -11,7 +11,7 @@ Ozh' Admin Drop Down Menu + all WordPress Admin Menus available in a stacked, co
 == Description ==
 
 **For WordPress 3.1+ only.**
-**Companion to Plugin: [Ozh' Admin Drop Down Menu 3.5.0+](http://wordpress.org/extend/plugins/ozh-admin-drop-down-menu/)**
+**Companion to: [Ozh' Admin Drop Down Menu 3.5.0+](http://wordpress.org/extend/plugins/ozh-admin-drop-down-menu/)**
 
 **What you need, where you need it - and when.**
 
