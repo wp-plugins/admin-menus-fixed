@@ -6,7 +6,7 @@ Tested up to: 3.1
 Stable tag: 0.6
 Contributors: spherical, ozh
 
-Ozh' Admin Drop Down Menu + WordPress Admin Bar and Admin Menu available in a stacked, compressed configuration fixed to the top of the Admin screens.
+Ozh' Admin Drop Down Menu + WordPress Admin Bar and Menu available in a stacked, compressed configuration fixed to the top of the Admin screens.
 
 == Description ==
 
@@ -35,7 +35,7 @@ For the backstory, a comprehensive overview and support, see the [Fixed Admin Me
 
 = 0.6 =
 
-* Now accommodates the Ozh' Admin Drop Down Menu being deactivated without deactivating Fixed Admin Menus first; retaining the compressed and fixed position aspects of the WordPress Admin Menu, so it can be used with the standard WordPress menus as well.
+* Now accommodates the Ozh' Admin Drop Down Menu being deactivated without deactivating Fixed Admin Menus first; retaining the compressed and fixed position attributes of the WordPress Admin Menu, so the plugin can be used with the standard WordPress menus as well.
 
 = 0.3 =
 
