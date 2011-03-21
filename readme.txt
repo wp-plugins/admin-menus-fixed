@@ -13,29 +13,26 @@ Ozh' Admin Drop Down Menu + WordPress Admin Bar and Menu available in a stacked,
 ### What you need, where you need it - and when. ###
 
 **For WordPress 3.1+ only.**  
-**Companion to: [Ozh' Admin Drop Down Menu 3.5.0+](http://wordpress.org/extend/plugins/ozh-admin-drop-down-menu/)**  
-- - -
+**Works with: [Ozh' Admin Drop Down Menu 3.5.0+](http://wordpress.org/extend/plugins/ozh-admin-drop-down-menu/)**  
 
-* Consolidates Ozh's menu, the WordPress 3.1+ Admin Bar and Admin Menu and makes them all fixed position, so that you always have them readily available at the top of your window.
+* Consolidates Ozh's menu, the WordPress 3.1+ Admin Bar and Admin Menu and makes them all fixed position, so that you always have them readily available at the top of your window; no mnatter how long the page may be.
 
 * All three fit in darn near the same space as the standard 3.1+ menus do alone. Enjoy more screen real estate and less scrolling!
 
-* Now works standalone. If Ozh' Admin Drop Down Menu is deactivated, the compressed WordPress Admin Menu moves up, still retaining its compressed and fixed position attributes.
+* **Now works standalone.** If Ozh' Admin Drop Down Menu is deactivated (why?), the compressed WordPress Admin Menu moves up, still retaining its compressed and fixed position attributes.
 
-* WordPress Admin Bar is optional. Automatically adjusts to the display/not display setting of the Admin Bar in the backend.  
+* **WordPress Admin Bar is optional.** Automatically adjusts to the display/not display setting of the Admin Bar in the backend.  
   Toggle: **Your Profile** > **Show Admin Bar** > **in dashboard** checkbox. Menus reformat to accommodate the chosen setting.
   
-* See the Screenshots for all of the combinations.
+* See the [Screenshots](http://wordpress.org/extend/plugins/admin-menus-fixed/screenshots/) for all of the combinations.
 
-For the backstory, a comprehensive overview and support, see the [Fixed Admin Menus - The Plugin](http://blog.imperialearth.com/wordpress/fixed-admin-menus-the-plugin/) pages.
-
-- - -
+For the backstory, a comprehensive overview and support, see the [Fixed Admin Menus - The Plugin](http://blog.imperialearth.com/wordpress/fixed-admin-menus-the-plugin/) page series.
 
 == Changelog ==
 
 = 0.6 =
 
-* Now accommodates the Ozh' Admin Drop Down Menu being deactivated without deactivating Fixed Admin Menus first; retaining the compressed and fixed position attributes of the WordPress Admin Menu, so the plugin can be used with the standard WordPress menus as well.
+* Now operates standalone; accommodating the Ozh' Admin Drop Down Menu being deactivated without having to deactivate Fixed Admin Menus first. This allows the compressed and fixed position attributes of the WordPress Admin Menu to be retained, so the plugin can be used with the standard WordPress menus as well.
 
 = 0.3 =
 
@@ -48,11 +45,12 @@ For the backstory, a comprehensive overview and support, see the [Fixed Admin Me
 1. Upload plugin directory to your `wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. May be Network Activated by Multisite Network Admin (advisable if Ozh's plugin is Network Activated but it is not necesssary that the activation methods match).
+4. Ozh' Admin Drop Down Menu not required but it is really cool. You should try it out. I've used it for years and wouldn't work without it.
 
 = Upgrading =
 
 * Overwrite the current admin-menus-fixed/ directory and all contents.
-* Test that the **Show Admin Bar** toggle in **Your Profile** works and the drop-downs extend and you're good to go.
+* Check that the **Show Admin Bar** toggle in **Your Profile** works and the drop-downs extend and you're good to go.
 
 == Frequently Asked Questions ==
 
