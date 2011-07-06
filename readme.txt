@@ -1,25 +1,31 @@
 === Admin Menus Fixed ===
 Donate link: http://sphericalmagic.com/plugins/donate.shtml
-Tags: admin, administration, bar, css, dashboard, dropdown, drop down, fixed, menu, menus, multisite, navigation, network, ozh, position, productivity, screen, super, spherical
+Tags: admin, administration, bar, css, dashboard, dropdown, drop down, fixed, header, menu, menus, multisite, navigation, network, ozh, position, productivity, screen, super, spherical
 Requires at least: 3.1
-Tested up to: 3.1
-Stable tag: 0.6
+Tested up to: 3.2
+Stable tag: 1.0
 Contributors: spherical, ozh
 
-Ozh' Admin Drop Down Menu + WordPress Admin Bar and Menu available in a stacked, compressed configuration fixed to the top of the Admin screens.
+Ozh' Admin Drop Down Menu + WordPress Admin Bar + Admin Header in a stacked, compressed configuration fixed to the top of the Admin screens.
 
 == Description ==
 
 ### What you need, where you need it - and when. ###
 
-**For WordPress 3.1+ only.**  
-**Works with: [Ozh' Admin Drop Down Menu 3.5.0+](http://wordpress.org/extend/plugins/ozh-admin-drop-down-menu/)**  
+**For WordPress 3.2+. Limited backward compatibility with WordPress 3.1+.**
+**Works with: [Ozh' Admin Drop Down Menu 3.5+ and 3.6+](http://wordpress.org/extend/plugins/ozh-admin-drop-down-menu/)**
 
-* Consolidates Ozh's menu, the WordPress 3.1+ Admin Bar and Admin Menu and makes them all fixed position, so that you always have them readily available at the top of your window; no mnatter how long the page may be.
+**Fixed Admin Menus Both Ways:** As a companion to Ozh' Admin Drop Down Menu **OR** Standalone.
 
-* All three fit in darn near the same space as the standard 3.1+ menus do alone. Enjoy more screen real estate and less scrolling!
+* Consolidates Ozh's menu, the WordPress Admin Bar and Admin Header and makes them all fixed-position, so that you always have them readily available at the top of your window; no matter how long the page may be.
 
-* **Now works standalone.** If Ozh' Admin Drop Down Menu is deactivated (why?), the compressed WordPress Admin Menu moves up, still retaining its compressed and fixed position attributes.
+* All three fit in darn near the same space as the standard menus do alone. Enjoy more screen real estate and less scrolling!
+
+* Consolidates the Admin Header's User Menu with the Site Title on the left; where all of the other menus are.
+
+* Compresses upper Admin screen element positions; bringing more of the page content "above the fold".
+
+* If installed Standalone, or Ozh' Admin Drop Down Menu is deactivated, the standard Admin Menu along the left side is made fixed-position, in both expanded and collapsed modes, and the Admin Header still displays fixed-position and consolidated, as above.
 
 * **WordPress Admin Bar is optional.** Automatically adjusts to the display/not display setting of the Admin Bar in the backend.  
   Toggle: **Your Profile** > **Show Admin Bar** > **in dashboard** checkbox. Menus reformat to accommodate the chosen setting.
@@ -30,9 +36,13 @@ For the backstory, a comprehensive overview and support, see the [Fixed Admin Me
 
 == Changelog ==
 
+= 1.0 =
+
+* Compatibility with WordPress 3.2+. Makes the standard WordPress Admin Menu fixed-position in both expanded and collapsed modes if installed Standalone.
+
 = 0.6 =
 
-* Now operates standalone; accommodating the Ozh' Admin Drop Down Menu being deactivated without having to deactivate Fixed Admin Menus first. This allows the compressed and fixed position attributes of the WordPress Admin Menu to be retained, so the plugin can be used with the standard WordPress menus as well.
+* Now operates Standalone; accommodating the Ozh' Admin Drop Down Menu being deactivated without having to deactivate Fixed Admin Menus first. This allows the compressed and fixed position attributes of the WordPress Admin Header to be retained, so the plugin can be used with the standard WordPress Admin Menu as well.
 
 = 0.3 =
 
@@ -44,7 +54,7 @@ For the backstory, a comprehensive overview and support, see the [Fixed Admin Me
 
 1. Upload plugin directory to your `wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. May be Network Activated by Multisite Network Admin (advisable if Ozh's plugin is Network Activated but it is not necesssary that the activation methods match).
+3. May be Network Activated by Multisite Network Admin (recommended if Ozh's plugin is Network Activated but it is not necessary that the activation methods match). Network Activation is required in WP 3.2+ for the plugin to work in Network Admin screens.
 4. Ozh' Admin Drop Down Menu not required but it is really cool. You should try it out. I've used it for years and wouldn't work without it.
 
 = Upgrading =
@@ -60,23 +70,19 @@ No configuration is necessary. It works all by itself.
 
 = This is cool. How can I support your effort? =
 
-If you'd like to help a real starving artist, please [buy me a burger, a taco or some cat food for our rescues.](http://sphericalmagic.com/plugins/donate.shtml)
+If you'd like to help a real starving artist, please [buy me a burger, a taco or some cat food for our Maine Coon and Bengal rescues.](http://sphericalmagic.com/plugins/donate.shtml)
 
 = Will you write a plugin for WordPress versions earlier than 3.1? =
 
-If there is enough call for it, yes. 3.0.5 and earlier are easier to handle. [Contact me](http://imperialearth.com/bejhail.shtml) and I'll bang one together. Problem is, all of my installs are now 3.1+, so you'd have to test it for me or I'd have to create a database and install 3.0.5 just for that.
+Now that we're two major releases farther on from 3.0, it's probably not worth it. Keeping up with new releases is extensive enough. You should upgrade your install anyway.
 
 == Screenshots ==
 
-1. **Admin Pages - Left Side | WordPress Admin Bar + Ozh' Admin Drop Down + WordPress Admin Menu - All Fixed**
-2. **Admin Pages - Right Side | WordPress Admin Bar + Ozh' Admin Drop Down + WordPress Admin Menu - All Fixed**
-3. **Admin Pages - Left Side | Ozh' Admin Drop Down + WordPress Admin Menu - Both Fixed**
-4. **Admin Pages - Right Side | Ozh' Admin Drop Down + WordPress Admin Menu - Both Fixed**
-5. **Admin Pages - Left Side | WordPress Admin Bar + WordPress Admin Menu - Both Fixed + Main Navigation on Left - Scrolls**
-6. **Admin Pages - Right Side | WordPress Admin Bar + WordPress Admin Menu - Both Fixed**
-7. **Admin pages - Left Side | WordPress Admin Menu Only - Fixed + Main Navigation on Left - Scrolls**
-8. **Admin pages - Right Side | WordPress Admin Menu Only - Fixed**
+1. **WordPress Admin Bar + Ozh' Admin Drop Down + Consolidated WordPress Admin Header - All Fixed**
+2. **Ozh' Admin Drop Down + Consolidated WordPress Admin Header - Both Fixed**
+3. **WordPress Admin Bar + Consolidated WordPress Admin Header + Standard Menu - All Fixed**
+4. **Consolidated WordPress Admin Header + Standard Menu Collapsed - Both Fixed**
 
 == Upgrade Notice ==
 
-A new version of Admin Menus Fixed is available. This clears a possible problem if Ozh' Admin Drop Down Menu is deactivated first. Also adds functionality for fixing WordPress Admin menus, whether or not Ozh's menu is activated. Please [upgrade now](http://wordpress.org/extend/plugins/admin-menus-fixed/).
+A new version of Admin Menus Fixed is available. This release is for WP 3.2+, with limited 3.1 backward compatibility. Please [upgrade now](http://wordpress.org/extend/plugins/admin-menus-fixed/).

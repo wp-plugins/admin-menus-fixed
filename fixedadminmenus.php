@@ -3,7 +3,7 @@
 Plugin Name: Fixed Admin Menus
 Plugin URI: http://blog.imperialearth.com/wordpress/fixed-admin-menus-the-plugin/
 Description: All admin menus available in a stacked and compressed configuration. Saves even more screen real estate and a lot of scrolling!
-Version: 0.6
+Version: 1.0
 Author: Spherical (B.E (BJ) Johnson)
 Author URI: http://sphericalmagic.com/
 Donate link: http://sphericalmagic.com/plugins/
