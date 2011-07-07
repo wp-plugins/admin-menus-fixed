@@ -59,7 +59,9 @@ if ( is_admin() ){
   }
 
   function fixed_admin_menus_footer() {
-  	echo "Ozh's and Admin Menus Grouped and Position-fixed by a companion plugin by <a href=\"http://blog.imperialearth.com/\">Spherical</a><br />";
+	echo <<<HTML
+<p id="fixed-admin-footer">Ozh' and WP Admin Menus Grouped and Position-fixed by a <a href="http://blog.imperialearth.com/wordpress/fixed-admin-menus-the-plugin/">companion plugin</a> from <a href="http://blog.imperialearth.com/">Spherical</a></p>
+HTML;
   }
 }
 ?>

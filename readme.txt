@@ -12,14 +12,14 @@ Ozh' Admin Drop Down Menu + WordPress Admin Bar + Admin Header in a stacked, com
 
 ### What you need, where you need it - and when. ###
 
-**For WordPress 3.2+. Limited backward compatibility with WordPress 3.1+.**
+**For WordPress 3.2+ - Backward compatibile with WordPress 3.1+.**
 **Works with: [Ozh' Admin Drop Down Menu 3.5+ and 3.6+](http://wordpress.org/extend/plugins/ozh-admin-drop-down-menu/)**
 
 **Fixed Admin Menus Both Ways:** As a companion to Ozh' Admin Drop Down Menu **OR** Standalone.
 
 * Consolidates Ozh's menu, the WordPress Admin Bar and Admin Header and makes them all fixed-position, so that you always have them readily available at the top of your window; no matter how long the page may be.
 
-* All three fit in darn near the same space as the standard menus do alone. Enjoy more screen real estate and less scrolling!
+* All three fit in darn near the same space as the standard bars do alone. Enjoy more screen real estate and less scrolling!
 
 * Consolidates the Admin Header's User Menu with the Site Title on the left; where all of the other menus are.
 
