@@ -2,7 +2,7 @@
 Donate link: http://sphericalmagic.com/plugins/donate.shtml
 Tags: admin, administration, bar, css, dashboard, dropdown, drop down, fixed, header, menu, menus, multisite, navigation, network, ozh, position, productivity, screen, super, spherical
 Requires at least: 3.1
-Tested up to: 3.2
+Tested up to: 3.2.1
 Stable tag: 1.0
 Contributors: spherical, ozh
 
@@ -25,7 +25,7 @@ Ozh' Admin Drop Down Menu + WordPress Admin Bar + Admin Header in a stacked, com
 
 * Compresses upper Admin screen element positions; bringing more of the page content "above the fold".
 
-* If installed Standalone, or Ozh' Admin Drop Down Menu is deactivated, the standard Admin Menu along the left side is made fixed-position, in both expanded and collapsed modes, and the Admin Header still displays fixed-position and consolidated, as above.
+* **If installed Standalone**, or Ozh' Admin Drop Down Menu is deactivated, the standard Admin Menu along the left side is made fixed-position, in both expanded and collapsed modes, and the Admin Header still displays fixed-position and consolidated, as above.
 
 * **WordPress Admin Bar is optional.** Automatically adjusts to the display/not display setting of the Admin Bar in the backend.  
   Toggle: **Your Profile** > **Show Admin Bar** > **in dashboard** checkbox. Menus reformat to accommodate the chosen setting.
@@ -85,4 +85,4 @@ Now that we're two major releases farther on from 3.0, it's probably not worth i
 
 == Upgrade Notice ==
 
-A new version of Admin Menus Fixed is available. This release is for WP 3.2+, with limited 3.1 backward compatibility. Please [upgrade now](http://wordpress.org/extend/plugins/admin-menus-fixed/).
+A new version of Admin Menus Fixed is available. This release is for WP 3.2+, with 3.1 backward compatibility. Please [upgrade now](http://wordpress.org/extend/plugins/admin-menus-fixed/).
