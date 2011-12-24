@@ -12,7 +12,7 @@ Ozh' Admin Drop Down Menu or Standard Admin Menu + WordPress Admin Bar Fixed to 
 
 ### What you need, where you need it - and when. ###
 
-**For WordPress 3.3+ - Backward compatibile with WordPress 3.2 and 3.1** see [Other Notes] (http://wordpress.org/extend/plugins/admin-menus-fixed/other_notes/)
+**For WordPress 3.3+ - Backward compatibile with WordPress 3.2 and 3.1** see [Other Notes](http://wordpress.org/extend/plugins/admin-menus-fixed/other_notes/)
 **Works with: [Ozh' Admin Drop Down Menu 3.6+](http://wordpress.org/extend/plugins/ozh-admin-drop-down-menu/)**
 
 **Fixed Admin Menus Both Ways:** As a companion to Ozh' Admin Drop Down Menu **OR** Standalone.
