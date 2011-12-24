@@ -6,7 +6,7 @@ Tested up to: 3.3
 Stable tag: 1.1
 Contributors: spherical, ozh
 
-Ozh' Admin Drop Down Menu + WordPress Admin Bar + Standard Admin Menu Fixed to the Top + Left of the Admin Screens.
+Ozh' Admin Drop Down Menu or Standard Admin Menu + WordPress Admin Bar Fixed to the Top + Left of the Admin Screens.
 
 == Description ==
 
