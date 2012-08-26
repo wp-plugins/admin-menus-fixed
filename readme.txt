@@ -6,7 +6,7 @@ Tested up to: 3.3
 Stable tag: 1.1
 Contributors: spherical, ozh
 
-Ozh' Admin Drop Down Menu or Standard Admin Menu + WordPress Admin Bar Fixed to the Top + Left of the Admin Screens.
+Ozh' Admin Drop Down Menu or Standard Admin Menu + WordPress Toolbar Fixed to the Top + Left of the Admin Screens.
 
 == Description ==
 
@@ -17,9 +17,9 @@ Ozh' Admin Drop Down Menu or Standard Admin Menu + WordPress Admin Bar Fixed to 
 
 **Fixed Admin Menus Both Ways:** As a companion to Ozh' Admin Drop Down Menu **OR** Standalone.
 
-**Now incorporates HoverIntent** to chill the Admin Bar drop-down hair trigger, so now you can overshoot Ozh' Menu without the Admin Bar menu falsely stepping on it.
+**Now incorporates HoverIntent** to chill the Toolbar drop-down hair trigger, so now you can overshoot Ozh' Menu without the Toolbar menu falsely stepping on it.
 
-* Consolidates the WordPress Admin Bar and Ozh's menu and makes them both so that you always have them readily available at the top of your window; no matter how long the page may be or where you happen to be scrolled.
+* Consolidates the WordPress Toolbar and Ozh's menu and makes them both so that you always have them readily available at the top of your window; no matter how long the page may be or where you happen to be scrolled.
 
 * Compresses upper Admin screen element positions; bringing more of the page content "above the fold".
 
@@ -33,7 +33,7 @@ For the backstory, a comprehensive overview and support, see the [Fixed Admin Me
 
 = 1.1 =
 
-* Compatibility with WordPress 3.3+. Incorporates HoverIntent on the Admin Bar drop-down's hair trigger, increasing the delay for better navigation. Code rewriitten for better compatibility according to conventional practice.
+* Compatibility with WordPress 3.3+. Incorporates HoverIntent on the Toolbar drop-down's hair trigger, increasing the delay for better navigation. Code rewriitten for better compatibility according to conventional practice.
 
 = 1.0 =
 
@@ -72,10 +72,10 @@ If you'd like to help a real starving artist, please [buy me a burger, a taco or
 
 == Screenshots ==
 
-1. **WordPress Admin Bar + Ozh' Admin Drop Down - Both Fixed**
-2. **WordPress Admin Bar + Standard Menu Expanded - Both Fixed**
-3. **WordPress Admin Bar + Standard Menu Collapsed - Both Fixed**
-4. **WordPress Admin Bar + Standard Menu Collapsed | Page Scrolled**
+1. **WordPress Toolbar + Ozh' Admin Drop Down - Both Fixed**
+2. **WordPress Toolbar + Standard Menu Expanded - Both Fixed**
+3. **WordPress Toolbar + Standard Menu Collapsed - Both Fixed**
+4. **WordPress Toolbar + Standard Menu Collapsed | Page Scrolled**
 
 == Upgrade Notice ==
 
