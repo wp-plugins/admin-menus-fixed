@@ -4,9 +4,9 @@ Donate link: http://sphericalmagic.com/plugins/donate.shtml
 Author URI: http://sphericalmagic.com/
 Plugin URI: http://blog.imperialearth.com/wordpress/fixed-admin-menus-the-plugin-condensed/
 Tags: admin, administration, bar, css, custom, dashboard, dropdown, drop down, fixed, header, menu, menus, multisite, navigation, network, ozh, position, productivity, screen, super, spherical
-Requires at least: 3.1
-Tested up to: 3.5
-Stable tag: 1.2
+Requires at least: 3.2
+Tested up to: 3.5.1
+Stable tag: 1.2.1
 License: GPLv2
 
 Ozh' Admin Drop Down Menu + WordPress Toolbar + Standard Admin Menu Fixed to the Top of the Admin Screens. Less Scrolling!
@@ -15,12 +15,12 @@ Ozh' Admin Drop Down Menu + WordPress Toolbar + Standard Admin Menu Fixed to the
 
 ### What you need, where you need it - and when. ###
 
-**For WordPress 3.5+ - Backward compatibile to WordPress 3.1 (see Other Notes).**
+**For WordPress 3.5+ - Backward compatibile to WordPress 3.2 (see Other Notes).**
 **Works with: [*Ozh' Admin Drop Down Menu* 3.6+](http://wordpress.org/extend/plugins/ozh-admin-drop-down-menu/) and [*AG Custom Admin* 1.2.5+](http://wordpress.org/extend/plugins/ag-custom-admin/)**
 
 **Admin Menus Fixed Three Ways:** As a companion to ***Ozh' Admin Drop Down Menu*** AND/OR ***AG Custom Admin*** OR ***Standalone***.
 
-**Incorporates HoverIntent** to chill the Toolbar drop-down menu hair trigger, so now you can overshoot Ozh' Menu without the Toolbar menu falsely stepping on it; causing you to move away until it closes its drop-down menu so that you can get to what you were going for. Way easier to work this way. Fast. Efficient.
+**Incorporates HoverIntent** to chill the Toolbar drop-down menu hair trigger, so now you can overshoot Ozh' Menu without the Toolbar menu falsely stepping on it; causing you to move away until it closes, so that you can get to what you were going for. Way easier to work this way. Fast. Efficient.
 
 * Consolidates the WordPress Toolbar and Ozh's menu and makes them both such that you always have them readily available at the top of your window; no matter how long the page may be or where you happen to be scrolled.
 
@@ -43,6 +43,10 @@ For the backstory, a comprehensive overview and support, see the [Fixed Admin Me
 * [Space &amp; Astronomical Art | Advanced Concept Design](http://imperialearth.com/)
 
 == Changelog ==
+
+= 1.2.1 =
+
+* Removed compatibility with WordPress Versions older than 3.2. You should be way past that by now; 'cuz... it's time.
 
 = 1.2 =
 
@@ -102,11 +106,11 @@ If you'd like to help a real starving artist, please [help us buy cat food for o
 
 == Upgrade Notice ==
 
-A new version of Admin Menus Fixed is available. This release is for WP 3.5+ and 3.4+, with 3.3, 3.2 and limited 3.1 backward compatibility. Please [upgrade now](http://wordpress.org/extend/plugins/admin-menus-fixed/).
+A new version of Admin Menus Fixed is available. This release is for WP 3.5+ and 3.4+, with 3.3, 3.2 backward compatibility. Please [upgrade now](http://wordpress.org/extend/plugins/admin-menus-fixed/).
 
 == Other Notes ==
 
-**V3.2 and Earlier Only**
+**V3.2 Only**
 * All three bars fit in darn near the same space as the standard bars do alone. Enjoy more screen real estate and less scrolling!
 
 * Consolidates the Admin Header's User Menu with the Site Title on the left; where all of the other menus are.
