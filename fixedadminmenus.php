@@ -54,10 +54,10 @@ if ( is_admin() ){
 					wp_enqueue_style( 'fixedadminmenus', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
 				}
 			} else {
-				if ( is_admin_bar_showing() ) {
-					wp_enqueue_style( 'fixedadminmenus-no', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus-no.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
-				} else {
+				if ( get_option('agca_header')==true ) {
 					wp_enqueue_style( 'fixedadminmenus-nob', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus-nob.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
+				} else {
+					wp_enqueue_style( 'fixedadminmenus-no', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus-no.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
 				}
 			}
 		} else {
@@ -69,10 +69,10 @@ if ( is_admin() ){
 						wp_enqueue_style( 'fixedadminmenus33', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus33.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
 					}
 				} else {
-					if ( is_admin_bar_showing() ) {
-						wp_enqueue_style( 'fixedadminmenus33-no', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus33-no.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
-					} else {
+					if ( get_option('agca_header')==true ) {
 						wp_enqueue_style( 'fixedadminmenus33-nob', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus33-nob.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
+					} else {
+						wp_enqueue_style( 'fixedadminmenus33-no', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus33-no.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
 					}
 				}
 			} else {
@@ -84,7 +84,7 @@ if ( is_admin() ){
 							wp_enqueue_style( 'fixedadminmenus32', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus32.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
 						}
 					} else {
-						if ( is_admin_bar_showing() ) {
+						if ( is_admin_bar_showing()|get_option('agca_header')==false ) {
 							wp_enqueue_style( 'fixedadminmenus32-no', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus32-no.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
 						} else {
 							wp_enqueue_style( 'fixedadminmenus32-nob', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus32-nob.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
