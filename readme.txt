@@ -6,7 +6,7 @@ Plugin URI: http://blog.imperialearth.com/wordpress/fixed-admin-menus-the-plugin
 Tags: admin, administration, bar, css, custom, dashboard, dropdown, drop down, fixed, header, menu, menus, multisite, navigation, network, ozh, position, productivity, screen, super, spherical
 Requires at least: 3.2
 Tested up to: 3.5.1
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 License: GPLv2
 
 Ozh' Admin Drop Down Menu + WordPress Toolbar + Standard Admin Menu Fixed to the Top of the Admin Screens. Less Scrolling!
@@ -43,6 +43,10 @@ For the backstory, a comprehensive overview and support, see the [Fixed Admin Me
 * [Space &amp; Astronomical Art | Advanced Concept Design](http://imperialearth.com/)
 
 == Changelog ==
+
+= 1.2.2 =
+
+* Fixed standard menu flyout on Chrome browser. Updated AG Custom Admin logic.
 
 = 1.2.1 =
 
