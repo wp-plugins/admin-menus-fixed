@@ -3,7 +3,7 @@
 Plugin Name: Admin Menus Fixed
 Plugin URI: http://blog.imperialearth.com/wordpress/fixed-admin-menus-the-plugin-condensed/
 Description: All admin menus available in a stacked, compressed, fixed configuration. Saves even more screen real estate and a lot of scrolling!
-Version: 1.2.1
+Version: 1.2.2
 Author: Spherical (B.E (BJ) Johnson)
 Author URI: http://sphericalmagic.com/
 Donate link: http://sphericalmagic.com/plugins/
@@ -38,7 +38,7 @@ function wp_fixedadmin_check(){
 
 if ( is_admin() ){
 	function fixedadmin_enqueue_scripts() {
-		wp_register_script( 'fixedadmin-bar-delay', plugins_url('admin-menus-fixed') . '/js/fixedadmin-bar-delay.js', array( 'jquery', 'hoverIntent' ), '1.2.1', true );
+		wp_register_script( 'fixedadmin-bar-delay', plugins_url('admin-menus-fixed') . '/js/fixedadmin-bar-delay.js', array( 'jquery', 'hoverIntent' ), '1.2.2', true );
 		wp_enqueue_script( 'fixedadmin-bar-delay' );
 	}
 	add_action( 'admin_enqueue_scripts', 'fixedadmin_enqueue_scripts' );
@@ -49,45 +49,45 @@ if ( is_admin() ){
 		if ( version_compare($wp_version, '3.5-beta1', '>=') ) {
 			if (function_exists('wp_ozh_adminmenu')) {
 				if ($bj_ozh_minimode['minimode']|get_option('agca_header')==true) {
-					wp_enqueue_style( 'fixedadminmenus-nb', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus-nb.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
+					wp_enqueue_style( 'fixedadminmenus-nb', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus-nb.css', array( 'admin-bar', 'wp-admin' ), '1.2.2' );
 				} else {
-					wp_enqueue_style( 'fixedadminmenus', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
+					wp_enqueue_style( 'fixedadminmenus', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus.css', array( 'admin-bar', 'wp-admin' ), '1.2.2' );
 				}
 			} else {
 				if ( get_option('agca_header')==true ) {
-					wp_enqueue_style( 'fixedadminmenus-nob', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus-nob.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
+					wp_enqueue_style( 'fixedadminmenus-nob', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus-nob.css', array( 'admin-bar', 'wp-admin' ), '1.2.2' );
 				} else {
-					wp_enqueue_style( 'fixedadminmenus-no', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus-no.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
+					wp_enqueue_style( 'fixedadminmenus-no', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus-no.css', array( 'admin-bar', 'wp-admin' ), '1.2.2' );
 				}
 			}
 		} else {
 			if ( version_compare($wp_version, '3.3-beta1', '>=') ) {
 				if (function_exists('wp_ozh_adminmenu')) {
 					if ($bj_ozh_minimode['minimode']|get_option('agca_header')==true) {
-						wp_enqueue_style( 'fixedadminmenus33-nb', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus33-nb.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
+						wp_enqueue_style( 'fixedadminmenus33-nb', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus33-nb.css', array( 'admin-bar', 'wp-admin' ), '1.2.2' );
 					} else {
-						wp_enqueue_style( 'fixedadminmenus33', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus33.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
+						wp_enqueue_style( 'fixedadminmenus33', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus33.css', array( 'admin-bar', 'wp-admin' ), '1.2.2' );
 					}
 				} else {
 					if ( get_option('agca_header')==true ) {
-						wp_enqueue_style( 'fixedadminmenus33-nob', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus33-nob.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
+						wp_enqueue_style( 'fixedadminmenus33-nob', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus33-nob.css', array( 'admin-bar', 'wp-admin' ), '1.2.2' );
 					} else {
-						wp_enqueue_style( 'fixedadminmenus33-no', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus33-no.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
+						wp_enqueue_style( 'fixedadminmenus33-no', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus33-no.css', array( 'admin-bar', 'wp-admin' ), '1.2.2' );
 					}
 				}
 			} else {
 				if ( version_compare($wp_version, '3.2-beta1', '>=') ) {
 					if (function_exists('wp_ozh_adminmenu')) {
 						if ($bj_ozh_minimode['minimode']|get_option('agca_header')==true) {
-							wp_enqueue_style( 'fixedadminmenus32-nb', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus32-nb.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
+							wp_enqueue_style( 'fixedadminmenus32-nb', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus32-nb.css', array( 'admin-bar', 'wp-admin' ), '1.2.2' );
 						} else {
-							wp_enqueue_style( 'fixedadminmenus32', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus32.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
+							wp_enqueue_style( 'fixedadminmenus32', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus32.css', array( 'admin-bar', 'wp-admin' ), '1.2.2' );
 						}
 					} else {
 						if ( is_admin_bar_showing()|get_option('agca_header')==false ) {
-							wp_enqueue_style( 'fixedadminmenus32-no', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus32-no.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
+							wp_enqueue_style( 'fixedadminmenus32-no', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus32-no.css', array( 'admin-bar', 'wp-admin' ), '1.2.2' );
 						} else {
-							wp_enqueue_style( 'fixedadminmenus32-nob', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus32-nob.css', array( 'admin-bar', 'wp-admin' ), '1.2.1' );
+							wp_enqueue_style( 'fixedadminmenus32-nob', plugins_url('admin-menus-fixed') . '/css/fixedadminmenus32-nob.css', array( 'admin-bar', 'wp-admin' ), '1.2.2' );
 						}
 					}
 				}
