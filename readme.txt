@@ -5,7 +5,7 @@ Author URI: http://sphericalmagic.com/
 Plugin URI: http://blog.imperialearth.com/wordpress/fixed-admin-menus-the-plugin-condensed/
 Tags: admin, administration, bar, css, custom, dashboard, dropdown, drop down, fixed, header, menu, menus, multisite, navigation, network, ozh, position, productivity, screen, super, spherical
 Requires at least: 3.2
-Tested up to: 3.5.1
+Tested up to: 3.6
 Stable tag: 1.2.2
 License: GPLv2
 
