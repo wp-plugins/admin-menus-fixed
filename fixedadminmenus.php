@@ -9,7 +9,7 @@ Author URI: http://sphericalmagic.com/
 Donate link: http://sphericalmagic.com/plugins/
 License: GPLv2
 Requires at least: 3.5
-Requires: WordPress 4.0+
+Requires: WordPress 4.1+
 
     Copyright 2010 B.E.Johnson  (email: bj-wpplugins@spherical.org)
 

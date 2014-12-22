@@ -5,7 +5,7 @@ Author URI: http://sphericalmagic.com/
 Plugin URI: http://blog.imperialearth.com/wordpress/fixed-admin-menus-the-plugin-condensed/
 Tags: admin, administration, bar, css, custom, dashboard, dropdown, drop down, fixed, header, menus, multisite, navigation, network, ozh, position, productivity, screen, super, spherical
 Requires at least: 3.5
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 1.3
 License: GPLv2
 
@@ -15,7 +15,7 @@ Ozh' Admin Drop Down Menu + WordPress 3.5-3.7 Toolbar & Standard Admin Menu Fixe
 
 ### What you need, where you need it - and when. ###
 
-**For WordPress 3.8 to 4.0+ - Backward compatibile to WordPress 3.5 (see [Other Notes](http://wordpress.org/extend/plugins/admin-menus-fixed/other_notes/))**
+**For WordPress 3.8 to 4.1+ - Backward compatibile to WordPress 3.5 (see [Other Notes](http://wordpress.org/extend/plugins/admin-menus-fixed/other_notes/))**
 **Works with: [*Ozh' Admin Drop Down Menu* 3.6+](http://wordpress.org/extend/plugins/ozh-admin-drop-down-menu/) and [*AG Custom Admin* 1.2.5+](http://wordpress.org/extend/plugins/ag-custom-admin/)**
 
 **Admin Menus Fixed Three Ways:** As a companion to ***Ozh' Admin Drop Down Menu*** AND/OR ***AG Custom Admin*** OR ***Standalone*** (WordPress 3.5-3.7)
@@ -40,7 +40,7 @@ For the backstory and a comprehensive overview of how the plugin got its start, 
 
 = 1.3 =
 
-* Compatibility with WordPress 3.8 to 4.0+
+* Compatibility with WordPress 3.8 to 4.1+
 * Dropped support for WordPress versions older than 3.5.
 
 = 1.2.2 =
@@ -109,7 +109,7 @@ If you'd like to help a real starving artist, please [help us buy food and medic
 
 == Upgrade Notice ==
 
-A new version of Admin Menus Fixed is available. This release is for WordPress 3.8+ to 4.0+, with 3.5-3.7 backward compatibility. Please [upgrade now](http://wordpress.org/extend/plugins/admin-menus-fixed/).
+A new version of Admin Menus Fixed is available. This release is for WordPress 3.8+ to 4.1+, with 3.5-3.7 backward compatibility. Please [upgrade now](http://wordpress.org/extend/plugins/admin-menus-fixed/).
 
 == Other Notes ==
 
